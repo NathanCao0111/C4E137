@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<script src="https://kit.fontawesome.com/da89889325.js" crossorigin="anonymous"></script>
+	<style>
+		table td{
+			padding: 8px 16px;
+		}
+		.w-150{
+			width: 150px;
+			display: inline-block;
+		}	
+		.mb-4{
+			margin-bottom: 4px;
+		}
+		.text-favorite{
+			position: relative;
+			bottom: 78px;
+		}
+	</style>
+</head>
+<body>
+	<div id="section-1">
+	<table border="1" width="60%" style="border-style: none;">
+		<tr>
+			<td colspan="7" style="text-align:center;"><b>Our list</b></td>
+		</tr>
+		<tr style="text-align: center;">
+			<td><b>#</b></td>
+			<td><b>Image</b></td>
+			<td><b>Name</b></td>
+			<td><b>Chapters</b></td>
+			<td colspan="3"><b>Views</b></td>
+		</tr>
+		<div>
+			<td>1</td>
+			<td style="width: 10%;">
+					<img src="https://m.media-amazon.com/images/M/MV5BZGFiMWFhNDAtMzUyZS00NmQ2LTljNDYtMmZjNTc5MDUxMzViXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg" alt="Naruto" style="display: block; width: 100%; height: auto;">
+			</td>
+			<td>Item 1</td>
+			<td>40</td>
+			<td>1000 <i class="fa-solid fa-eye"></i></td>
+			<td>30 <i class="fa-solid fa-thumbs-up"></i></td>
+			<td>2 <i class="fa-solid fa-thumbs-down"></i></td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td style="width: 10%;">
+					<img src="https://m.media-amazon.com/images/M/MV5BZGFiMWFhNDAtMzUyZS00NmQ2LTljNDYtMmZjNTc5MDUxMzViXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg" alt="Naruto" style="display: block; width: 100%; height: auto;">
+			</td>
+			<td>Item 2</td>
+			<td>59</td>
+			<td>4002 <i class="fa-solid fa-eye"></i></td>
+			<td>324 <i class="fa-solid fa-thumbs-up"></i></td>
+			<td>10 <i class="fa-solid fa-thumbs-down"></i></td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td style="width: 10%;">
+				<img src="https://m.media-amazon.com/images/M/MV5BZGFiMWFhNDAtMzUyZS00NmQ2LTljNDYtMmZjNTc5MDUxMzViXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg" alt="Naruto" style="display: block; width: 100%; height: auto;">
+			</td>
+			<td>Item 3</td>
+			<td>105</td>
+			<td>6754 <i class="fa-solid fa-eye"></i></td>
+			<td>332 <i class="fa-solid fa-thumbs-up"></i></td>
+			<td>56 <i class="fa-solid fa-thumbs-down"></i></td>
+		</tr>
+	</table>
+</div>
+
+<div id="section-2">
+	<form action="">
+		<div class="profile-info">
+			<h2>Profile info</h2>
+			<div class="first-name mb-4">
+			<b class="w-150">First name*</b>
+			<input type="text" required name="" id="">
+			</div>
+			<div class="last-name mb-4">
+			<b class="w-150">Last name*</b>
+			<input type="text" required name="" id="">
+			</div>
+			<div class="birthday mb-4">
+			<b class="w-150">Birthday</b>
+			<input type="date" name="" id="">
+			</div>
+			<div class="sex mb-4">
+			<b class="w-150">Sex</b>
+			<input type="radio" name="sex" id="">Male
+			<input type="radio" name="sex" id="">Female
+			</div>
+			<div class="favorite mb-4">
+			<b class="w-150 text-favorite">Favorite</b>
+			<textarea name="" id="" cols="30" rows="10" class="area-favorite"></textarea>
+			</div>
+		</div>
+
+		<div class="account-info">
+			<h2>Account info</h2>
+			<div class="user-name mb-4">
+				<b class="w-150">Username*</b>
+				<input type="text" required name="" id="">
+			</div>
+			<div class="email mb-4">
+				<b class="w-150">Email*</b>
+				<input type="email" required name="" id="">
+			</div>
+			<div class="password mb-4">
+				<b class="w-150">Password*</b>
+				<input type="password" required name="" id="">
+			</div>
+			<div class="confirm-password mb-4">
+				<b class="w-150">Confirm password*</b>
+				<input type="password" required name="" id="">
+			</div>
+		</div>
+
+		<input type="submit" value="Register">
+	</form>
+</div>
+</body>
+</html>
