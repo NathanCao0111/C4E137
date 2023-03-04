@@ -1,0 +1,192 @@
+html{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#main{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* Bai 1 */
+
+#bai-1{
+	min-width: 70%;
+	margin: 0 auto;
+}
+
+.bai-1__title,
+.bai-2__title,
+.bai-3__title{
+	font-size: 20px;
+}
+
+.bai-1__table{
+	border-bottom: 1px solid #ddd; 
+	width: 100%;
+}
+
+.bai-1__table-row{
+	font-size: 14px;
+}
+
+.bai-1__table-row--heading{
+	background-color: #000;
+	color: #fff;
+	font-weight: 700;
+}
+
+.bai-1__table-row td{
+	padding: 8px 8px;
+}
+
+.bai-1__table-row td a{
+	text-decoration: none;
+	color: #066eff;
+}
+
+.bai-1__table-row-1,
+.bai-1__table-row-3{
+	background-color: #ddd;
+}
+
+.bai-1__table-desc--red{
+	color: #ee3346;
+}
+
+.bai-1__table-row td button{
+	background-color: #066eff;
+	color: #fff;
+	border-style: none;
+	border-radius: 5px;
+	padding: 8px 12px;
+	cursor: pointer;
+}
+
+.bai-1__table-row td a:hover,
+.bai-1__table-row td button:hover{
+	opacity: 0.5;
+}
+
+
+/* Bai 2 */
+#bai-2{
+	min-width: 70%;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.bai-2__table{
+	border: 1px solid #ddd;
+	width: 100%;
+	border-collapse: collapse;
+	border-radius: 10px;
+}
+
+.bai-2__table td{
+	padding: 16px;
+	border-bottom: 1px solid #ddd;
+}
+
+.bai-2__table td div{
+	font-size: 14px;
+}
+
+.bai-2__table td button{
+	margin-top: 8px;
+	border-style: none;
+	border-radius: 8px;
+	padding: 4px 12px;
+	color: #fff;
+	font-size: 10px;
+	font-weight: 700;
+}
+
+.bai-2__table td button:hover{
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.bai-2__table-button--blue{
+	background-color: #066eff;
+}
+
+.bai-2__table-button--red{
+	background-color: #ee3346;
+}
+
+.bai-2__table-button--grey{
+	background-color: #70777e;
+}
+
+
+/* Bai 3 */
+#bai-3{
+	min-width: 70%;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.bai-3__title{
+	display: block;
+	margin: 8px 8px;
+}
+
+.form{
+	border: 1px solid #ddd;
+	padding: 16px;
+}
+
+.form div{
+	margin-bottom: 12px;
+}
+
+.form div label{
+	font-size: 14px;
+	display: block;
+	margin: 8px 0px;
+}
+
+.form div label span{
+	color: #ee3346;
+}
+
+.form__div--inline{
+	display: inline-block;
+}
+
+.bai-3__input{
+	padding: 6px 0px;
+}
+
+.bai-3__input--full{
+	min-width: 100%;
+}
+
+.col-half{
+	display: flex;
+	justify-content: space-between;
+}
+
+.form__div{
+	flex: 1;
+}
+
+.form__div--m8{
+	margin: 0px 8px;
+}
+
+.form__btn{
+	background-color: #066eff;
+	color: #fff;
+	border-style: none;
+	border-radius: 5px;
+	padding: 10px 14px;
+	cursor: pointer;
+	font-size: 14px;
+	margin: 0px 8px;
+}
+
+.form__btn:hover{
+	opacity: 0.5;
+}

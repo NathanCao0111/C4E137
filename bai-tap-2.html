@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./bai-tap-2.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<title>Document</title>
+</head>
+<body>
+<div id="main">
+	<div id="bai-1">
+		<h2 class="bai-1__title">
+			Item table
+		</h2>
+		<table rules="none" class="bai-1__table">
+			<tr class="bai-1__table-row bai-1__table-row--heading">
+				<td>ID</td>
+				<td>Name</td>
+				<td>Category</td>
+				<td>In stock</td>
+				<td></td>
+			</tr>
+			<tr class="bai-1__table-row bai-1__table-row-1">
+				<td>1</td>
+				<td><a href="">Item 1</a></td>
+				<td>A</td>
+				<td class="bai-1__table-desc--red">100</td>
+				<td><button>Detail</button></td>
+			</tr>
+			<tr class="bai-1__table-row bai-1__table-row-2">
+				<td>2</td>
+				<td><a href="">Item 2</a></td>
+				<td>A</td>
+				<td class="bai-1__table-desc--red">300</td>
+				<td><button>Detail</button></td>
+			</tr>
+			<tr class="bai-1__table-row bai-1__table-row-3">
+				<td>3</td>
+				<td><a href="">Item 3</a></td>
+				<td>B</td>
+				<td class="bai-1__table-desc--red">40</td>
+				<td><button>Detail</button></td>
+			</tr>
+			<tr class="bai-1__table-row bai-1__table-row-4">
+				<td>4</td>
+				<td><a href="">Item 5</a></td>
+				<td>C</td>
+				<td class="bai-1__table-desc--red">100</td>
+				<td><button>Detail</button></td>
+			</tr>
+		</table>
+	</div>
+
+	<div id="bai-2">
+		<h2 class="bai-2__title">
+			Item list
+		</h2>
+		<table class="bai-2__table">
+			<tr class="bai-2__table-row">
+				<td><div>Item 1</div> 
+					<button class="bai-2__table-button--blue">12
+						<i class="fa-regular fa-thumbs-up"></i>
+					</button>
+					<button class="bai-2__table-button--red">30
+						<i class="fa-regular fa-heart"></i>
+					</button>
+					<button class="bai-2__table-button--grey">400
+						<i class="fa-regular fa-eye"></i>
+					</button>
+				</td>
+			</tr>
+			<tr class="bai-2__table-row">
+				<td><div>Item 2</div> 
+					<button class="bai-2__table-button--blue">50
+						<i class="fa-regular fa-thumbs-up"></i>
+					</button>
+					<button class="bai-2__table-button--red">42
+						<i class="fa-regular fa-heart"></i>
+					</button>
+					<button class="bai-2__table-button--grey">503
+						<i class="fa-regular fa-eye"></i>
+					</button>
+				</td>
+			</tr>
+			<tr class="bai-2__table-row">
+				<td><div>Item 3</div> 
+					<button class="bai-2__table-button--blue">99
+						<i class="fa-regular fa-thumbs-up"></i>
+					</button>
+					<button class="bai-2__table-button--red">440
+						<i class="fa-regular fa-heart"></i>
+					</button>
+					<button class="bai-2__table-button--grey">3000
+						<i class="fa-regular fa-eye"></i>
+					</button>
+				</td>
+			</tr>
+		</table>
+
+	</div>
+
+	<div id="bai-3">
+		<form action="" class="form">
+			<h2 class="bai-3__title">
+				Create an account
+			</h2>
+			<div class="col-half">
+			<div class="form__div form__div--inline form__div--m8">
+				<label for="first-name" class="bai-3__label">First name <span>*</span></label>
+				<input type="text" name="" required id="first-name" class="bai-3__input bai-3__input--full">
+			</div>
+			<div class="form__div form__div--inline form__div--m8">
+				<label for="last-name" class="bai-3__label">Last name <span>*</span></label>
+				<input type="text" name="" required id="last-name" class="bai-3__input bai-3__input--full">
+			</div>
+			</div>
+			<div class="form__div--m8">
+				<label for="email" class="bai-3__label">Email <span>*</span></label>
+				<input type="email" name="" required id="email" class="bai-3__input bai-3__input--full">
+			</div>
+			<div class="form__div--m8">
+				<label for="password" class="bai-3__label">Password <span>*</span></label>
+				<input type="password" name="" required id="password" class="bai-3__input bai-3__input--full">
+			</div>
+			<div class="form__div--m8">
+				<label for="confirm-password" class="bai-3__label">Confirm password <span>*</span></label>
+				<input type="password" name="" required id="confirm-password" class="bai-3__input bai-3__input--full">
+			</div>
+			<div class="form__div--m8">
+				<label for="note" class="bai-3__label">Note</label>
+				<textarea name="" id="note" placeholder="Write something about you" cols="30" rows="10" class="bai-3__input bai-3__input--full"></textarea>
+			</div>
+
+			<input type="submit" value="Register" class="form__btn">
+		</form>
+	</div>
+</div>
+</body>
+</html>
