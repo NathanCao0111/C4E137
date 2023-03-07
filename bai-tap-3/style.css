@@ -1,0 +1,236 @@
+html{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#main{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 1500px;
+}
+
+
+/* Bai 1 */
+.bai-1{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 100%;
+	height: 500px;
+	position: relative;
+}
+
+.muc-tieu-2022{
+	background-color: #ffe7d0;
+	border: 1px solid #c8b468;
+	padding: 32px 0px;
+	width: 150px;
+	text-align: center;
+	position: absolute;
+	top: 150px;
+	z-index: 1;
+}
+
+.muc-tieu-1{
+	color: #fff;
+	background-color: #60a919;
+	border: 1px solid #5c9029;
+	padding: 32px 0px;
+	text-align: center;
+	width: 150px;
+	order: -1;
+	position: absolute;
+	top: 100px;
+	left: -300px;
+}
+
+.muc-tieu-2{
+	color: #fff;
+	background-color: #008601;
+	border: 1px solid #027401;
+	padding: 32px 0px;
+	text-align: center;
+	width: 150px;
+	order: -1;
+	position: absolute;
+	top: 30px;
+}
+
+.muc-tieu-3{
+	color: #fff;
+	background-color: #1ca0e1;
+	border: 1px solid #2092c0;
+	padding: 32px 0px;
+	text-align: center;
+	width: 150px;
+	order: -1;
+	position: absolute;
+	top: 100px;
+	right: -300px;
+}
+
+.muc-tieu-4{
+	color: #fff;
+	background-color: #a20123;
+	border: 1px solid #980626;
+	padding: 32px 0px;
+	text-align: center;
+	width: 150px;
+	position: absolute;
+	top: 220px;
+	right: -300px;
+}
+
+.muc-tieu-5{
+	color: #fff;
+	background-color: #d90073;
+	border: 1px solid #b24274;
+	padding: 32px 0px;
+	text-align: center;
+	width: 150px;
+	position: absolute;
+	top: 270px;
+}
+
+.muc-tieu-6{
+	color: #fff;
+	background-color: #0050f1;
+	border: 1px solid #87a0c8;
+	padding: 32px 0px;
+	text-align: center;
+	width: 150px;
+	position: absolute;
+	top: 220px;
+	left: -300px;
+}
+
+
+/* Bai 2 */
+.bai-2{
+	background-color: #d8eafb;
+	border: 1px solid #9daec0;
+	width: 50%;
+	margin: 0 auto;
+	padding: 30px 40px 0px 40px;
+}
+
+.bai-2__text{
+	background-color: #f7cecc;
+	border: 1px solid #d38e97;
+	padding: 25px 20px;
+	line-height: 1.5;
+}
+
+.bai-2__btns{
+	margin: 20px 0px;
+}
+
+.bai-2__btn{
+	border-style: none;
+	outline: none;
+	cursor: pointer;
+	padding: 12px 30px;
+	border-radius: 10px;
+	color: #fff;
+	margin-right: 8px;
+}
+
+.bai-2__btn--pink{
+	background-color: #d6026d;
+	margin-bottom: 8px;
+}
+
+.bai-2__btn--blue{
+	background-color: #1ca0e1;
+}
+
+.bai-2__btn--has-popup{
+	position: relative;
+}
+
+.bai-2__popup{
+	display: none;
+	width: 220px;
+	height: 220px;
+	position: absolute;
+	top: -100px;
+	left: -30px;
+}
+
+.bai-2__chat-box{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: -80px;
+	left: -20px;
+}
+
+.bai-2__message{
+	color: #000;
+	width: 120px;
+	height: 50px;
+	position: absolute;
+	top: -10px;
+	left: 30px; 
+}
+
+.bai-2__btn--has-popup:hover .bai-2__popup{
+	display: block;
+}
+
+
+/* Bai 3 */
+.bai-3{
+	margin-top: 100px;
+	background-color: #d8eafb;
+	border: 1px solid #9daec0;
+	padding: 12px;
+	display: flex;
+}
+
+.bai-3__item{
+	background-color: #ffe7d0;
+	border: 1px solid #c8b468;
+	padding: 20px 50px;
+}
+
+.bai-3__item-popup{
+	/* display: none; */
+	background-color: #fff;
+	border: 1px solid #000;
+	border-collapse: collapse;
+	box-shadow: 3px 3px 0px rgba(0,0,0,0.5);
+	position: absolute;
+	top: 140%;
+	left: 0;
+	display: none;
+}
+
+.bai-3__item-popup tr{
+	text-align: center;
+}
+
+.bai-3__item-popup td{
+	border-bottom: 1px solid #000;
+	padding: 25px 40px;
+}
+
+.bai-3__item--has-popup{
+	position: relative;
+	cursor: pointer;
+}
+
+.bai-3__item-popup::before{
+	content: "";
+	display: block;
+	background-color: transparent;
+	width: 165px;
+	height: 50px;
+	position: absolute;
+	top: -50px;
+	left: -5px;
+}
+
+.bai-3__item--has-popup:hover .bai-3__item-popup{
+	display: block;
+}
